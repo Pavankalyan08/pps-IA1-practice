@@ -2,7 +2,7 @@
 #include<string.h>
 void input_two_string(char *a,char *b)
 {
-  printf("enter two strings\n");
+  printf("enter the two strings\n");
   scanf("%s",a);
   scanf("%s",b);
 }
