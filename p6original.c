@@ -9,7 +9,7 @@ void input_two_string(char *a,char *b)
 int str_cmp(char *a,char *b)
 {
   int i,n;
-  for(int i=0;(a[i]==b[i] && a[i]!='\0');i++)
+  for(int i=0;(a[i]==b[i] && a[i]);i++)
   n= a[i]-b[i];
   return n;
 }
