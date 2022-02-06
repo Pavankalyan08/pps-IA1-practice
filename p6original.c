@@ -33,7 +33,7 @@ int main()
   int n;
   char a[200],b[200];
   input_two_string(a,b);
-  n=strcmp(a,b);
+  n=str_cmp(a,b);
   output(a,b,n);
   return 0;
 }
